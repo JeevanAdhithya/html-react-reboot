@@ -94,8 +94,6 @@ function Index() {
             });
         }, { threshold: 0.2 });
         document.querySelectorAll('.how-visual').forEach(el => howObserver.observe(el));
-    </script>
-
   }, []);
   return (
     <>
